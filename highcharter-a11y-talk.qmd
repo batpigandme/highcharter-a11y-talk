@@ -9,20 +9,34 @@ format:
 ---
 
 ## About me 👋
+
+. . .
+
+### Mara Averick
+
 ::: incremental
-* Mara Averick 
-* Developer Advocate, RStudio
-* Missoula, MT
+-   Developer Advocate, RStudio 👩‍💻
 
-* Things I did not create:
-
-    -   **{highcharter}** [@kunst2022]
-
-    -   **Highcharts** [@highcharts2022]
-    
-    -   _n.b._ The above list is not exhaustive.
+-   Missoula, MT 🏔️
 :::
 
+. . .
+
+#### Things I did not create:
+
+::: incremental
+-   {highcharter} [@kunst2022]
+
+-   Highcharts [@highcharts2022]
+:::
+
+. . .
+
+::: {style="text-align: right; font-size: 0.9em;"}
+*n.b.* The above list is not exhaustive.
+:::
+
+---
 ## Bullets
 
 When you click the **Render** button a document will be generated that includes:
