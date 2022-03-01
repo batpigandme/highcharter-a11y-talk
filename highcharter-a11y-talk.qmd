@@ -6,6 +6,7 @@ format:
   revealjs:
     preview-links: auto
     bibliography: biblio.bib
+    self-contained: false
 ---
 
 ## About me 👋
@@ -36,14 +37,45 @@ format:
 *n.b.* The above list is not exhaustive.
 :::
 
+
+## Interactive Slides {.smaller transition="slide"}
+
+Include Jupyter widgets and htmlwidgets in your presentations
+
+```{r}
+#| echo: false
+library(highcharter)
+data <- data.frame(
+    fruit = c("apple", "banana", "orange", "pear"),
+    count = c(2, 3, 5, 4)
+    )
+
+highchart() %>%
+  hc_add_dependency(name = "modules/accessibility.js") %>%
+  hc_add_dependency(name = "modules/exporting.js") %>%
+  hc_add_dependency(name = "modules/export-data.js") %>%
+  hc_title(text = "Fruits") %>%
+  hc_xAxis(categories = data$fruit) %>%
+  hc_add_series(
+    data = data$count,
+    type = "column",
+    name = "Count"
+  ) %>%
+  hc_exporting(
+    enabled = TRUE,
+    accessibility = list(
+      enabled = TRUE
+    )
+  ) %>%
+    hc_plotOptions(
+      accessibility = list(
+        enabled = TRUE,
+        keyboardNavigation = list(enabled = TRUE)
+    )
+  )
+```
+
 ---
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
 ## Code
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
