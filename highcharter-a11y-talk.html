@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-99.9.9">
   <meta name="author" content="Mara Averick">
+  <meta name="dcterms.date" content="2022-03-09">
   <title>Adventures with {highcharter} and the Highcharts accessibility module</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -19,6 +20,25 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="highcharter-a11y-talk_files/libs/revealjs/dist/theme/quarto.css" id="theme">
 
@@ -332,11 +352,24 @@
 <section id="title-slide" class="center">
   <h1 class="title">Adventures with {highcharter} and the Highcharts accessibility module</h1>
   <p class="author">Mara Averick</p>
+  <p class="date">2022-03-09</p>
 </section>
 
-<section id="quarto" class="slide level2">
-<h2>Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a>.</p>
+<section id="about-me" class="slide level2">
+<h2>About me 👋</h2>
+<div>
+<ul>
+<li class="fragment"><p>Mara Averick</p></li>
+<li class="fragment"><p>Developer Advocate, RStudio</p></li>
+<li class="fragment"><p>Missoula, MT</p></li>
+<li class="fragment"><p>Things I did not create:</p>
+<ul>
+<li class="fragment"><p><strong>{highcharter}</strong> <span class="citation" data-cites="kunst2022">(<a href="#/ref-kunst2022" role="doc-biblioref" onclick="return false;">Kunst 2022</a>)</span></p></li>
+<li class="fragment"><p><strong>Highcharts</strong> <span class="citation" data-cites="highcharts2022">(<a href="#/ref-highcharts2022" role="doc-biblioref" onclick="return false;">Highcharts 2022</a>)</span></p></li>
+<li class="fragment"><p><em>n.b.</em> The above list is not exhaustive.</p></li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="bullets" class="slide level2">
 <h2>Bullets</h2>
@@ -354,8 +387,19 @@
 <pre><code>[1] 2</code></pre>
 </div>
 </div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 <div class="footer footer-default">
 
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-highcharts2022" class="csl-entry" role="doc-biblioentry">
+Highcharts. 2022. <em>Highcharts <span>Javascript Charting Library</span></em> (version 9.3.3). <a href="https://www.highcharts.com/products/highcharts/">https://www.highcharts.com/products/highcharts/</a>.
+</div>
+<div id="ref-kunst2022" class="csl-entry" role="doc-biblioentry">
+Kunst, Joshua. 2022. <em>Highcharter: <span>A</span> Wrapper for the <span class="nocase">’highcharts’</span> Library</em> (version 0.9.4). <a href="https://jkunst.com/highcharter/">https://jkunst.com/highcharter/</a>.
+</div>
 </div>
 </section>
     </div>

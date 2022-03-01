@@ -1,14 +1,27 @@
 ---
 title: "Adventures with {highcharter} and the Highcharts accessibility module"
 author: "Mara Averick"
+date: 2022-03-09
 format: 
   revealjs:
     preview-links: auto
+    bibliography: biblio.bib
 ---
 
-## Quarto
+## About me 👋
+::: incremental
+* Mara Averick 
+* Developer Advocate, RStudio
+* Missoula, MT
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+* Things I did not create:
+
+    -   **{highcharter}** [@kunst2022]
+
+    -   **Highcharts** [@highcharts2022]
+    
+    -   _n.b._ The above list is not exhaustive.
+:::
 
 ## Bullets
 
@@ -25,4 +38,4 @@ When you click the **Render** button a presentation will be generated that inclu
 1 + 1
 ```
 
-
+## References
