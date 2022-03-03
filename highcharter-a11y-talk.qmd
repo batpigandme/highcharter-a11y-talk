@@ -40,8 +40,6 @@ format:
 
 ## Motivating example {.smaller .scrollable}
 
-
-
 ```{r}
 #| echo: false
 library(highcharter)
