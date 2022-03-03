@@ -4,20 +4,19 @@ author: "Mara Averick"
 date: 2022-03-09
 format: 
   revealjs:
+    theme: [default, custom.scss]
     preview-links: auto
     bibliography: biblio.bib
     self-contained: false
+    lang: en
 ---
 
 ## About me 👋
 
-. . .
-
-### Mara Averick
-
 ::: incremental
--   Developer Advocate, RStudio 👩‍💻
 
+-   Mara Averick  
+-   Developer Advocate, RStudio 👩‍💻  
 -   Missoula, MT 🏔️
 :::
 
@@ -37,8 +36,9 @@ format:
 *n.b.* The above list is not exhaustive.
 :::
 
+---
 
-## Motivating example {.smaller .scrollable transition="slide"}
+## Motivating example {.smaller .scrollable}
 
 
 
@@ -76,6 +76,47 @@ highchart() %>%
 ```
 
 ---
+
+## Pretty Code {auto-animate="true"}
+
+-   Over 20 syntax highlighting themes available
+-   Default theme optimized for accessibility
+
+``` r
+# Define a server for the Shiny app
+function(input, output) {
+  
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot({
+    # Render a barplot
+  })
+}
+```
+
+---
+
+## Code Animations {auto-animate="true"}
+
+-   Over 20 syntax highlighting themes available
+-   Default theme optimized for accessibility
+
+``` r
+# Define a server for the Shiny app
+function(input, output) {
+  
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot({
+    # Render a barplot
+    barplot(WorldPhones[,input$region]*1000, 
+            main=input$region,
+            ylab="Number of Telephones",
+            xlab="Year")
+  })
+}
+```
+
+---
+
 ## Code
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
@@ -85,3 +126,5 @@ When you click the **Render** button a presentation will be generated that inclu
 ```
 
 ## References
+
+
