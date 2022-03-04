@@ -123,6 +123,14 @@ When you click the **Render** button a presentation will be generated that inclu
 1 + 1
 ```
 
+---
+
+## Resources
+
+* [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
+
+---
+
 ## References
 
 
