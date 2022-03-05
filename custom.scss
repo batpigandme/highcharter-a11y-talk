@@ -1,9 +1,10 @@
 /*-- scss:defaults --*/
 // import Noto fonts
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;300;500&family=Noto+Sans+Mono&family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap");
 
 // fonts
 $font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-alt: "Noto Sans Display", "Noto Sans", sans-serif !default;
 $font-family-monospace: "Noto Sans Mono", "Menlo", "Consolas", monospace !default;
 $font-family-serif: "Noto Serif", serif !default;
 
@@ -13,3 +14,15 @@ $link-color: #2f7851 !default;
 // headings
 
 /*-- scss:rules --*/
+// inline citation text lighter
+span.citation {
+  font-family: $font-family-sans-alt;
+  font-weight: 300;
+}
+// source bottom right of slide
+.source {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: smaller;
+}

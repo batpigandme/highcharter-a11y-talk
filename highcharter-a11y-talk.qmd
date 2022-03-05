@@ -38,6 +38,28 @@ format:
 
 ---
 
+## Highcharts<sup>&reg;</sup> JS
+
+> Highcharts...is a pure JavaScript charting library based on SVG that makes it easy for developers to create responsive, interactive and accessible charts.
+
+::: source
+<https://www.highcharts.com/products/highcharts/>
+:::
+
+---
+
+## highcharter
+
+![](images/highcharter-logo.png){.absolute top=0 right=0 width="166" height="192"}
+
+> highcharter is an R wrapper for Highcharts JavaScript library and its modules. 
+
+::: source
+<https://jkunst.com/highcharter/>
+:::
+
+---
+
 ## Motivating example {.smaller .scrollable}
 
 ```{r}
