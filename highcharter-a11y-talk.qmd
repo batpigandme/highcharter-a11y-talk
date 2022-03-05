@@ -14,9 +14,8 @@ format:
 ## About me 👋
 
 ::: incremental
-
--   Mara Averick  
--   Developer Advocate, RStudio 👩‍💻  
+-   Mara Averick\
+-   Developer Advocate, RStudio 👩‍💻\
 -   Missoula, MT 🏔️
 :::
 
@@ -36,9 +35,9 @@ format:
 *n.b.* The above list is not exhaustive.
 :::
 
----
+------------------------------------------------------------------------
 
-## Highcharts<sup>&reg;</sup> JS
+## Highcharts<sup>®</sup> JS
 
 > Highcharts...is a pure JavaScript charting library based on SVG that makes it easy for developers to create responsive, interactive and accessible charts.
 
@@ -46,19 +45,19 @@ format:
 <https://www.highcharts.com/products/highcharts/>
 :::
 
----
+------------------------------------------------------------------------
 
 ## highcharter
 
-![](images/highcharter-logo.png){.absolute top=0 right=0 width="166" height="192"}
+![](images/highcharter-logo.png){.absolute top="0" right="0" width="166" height="192"}
 
-> highcharter is an R wrapper for Highcharts JavaScript library and its modules. 
+> highcharter is an R wrapper for Highcharts JavaScript library and its modules.
 
 ::: source
 <https://jkunst.com/highcharter/>
 :::
 
----
+------------------------------------------------------------------------
 
 ## Motivating example {.smaller .scrollable}
 
@@ -95,19 +94,27 @@ highchart() %>%
   )
 ```
 
----
+------------------------------------------------------------------------
 
-<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload style="width:95%;height:95%;"></iframe>
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload style="width:95%;height:95%;">
+
+</iframe>
 
 ::: {.source .r-fit-text}
 <https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
 :::
 
+----
+
+### San Francisco Arts Commission Example
+
+<iframe src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="demo-a11y-page mt-1" title="highcharts a11y chart keyboard navigation" allowfullscreen="" height="95%" width="95%" id="art-grants-demo"> </iframe>
+
 ---
 
-<https://www.highcharts.com/blog/accessibility/>
+[Highcharts Accessibility Demos & Examples \| Highcharts](https://www.highcharts.com/blog/accessibility/)
 
----
+------------------------------------------------------------------------
 
 ## Pretty Code {auto-animate="true"}
 
@@ -125,7 +132,7 @@ function(input, output) {
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## Code Animations {auto-animate="true"}
 
@@ -147,7 +154,7 @@ function(input, output) {
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## Code
 
@@ -157,14 +164,12 @@ When you click the **Render** button a presentation will be generated that inclu
 1 + 1
 ```
 
----
+------------------------------------------------------------------------
 
 ## Resources
 
-* [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
+-   [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
 
----
+------------------------------------------------------------------------
 
 ## References
-
-
