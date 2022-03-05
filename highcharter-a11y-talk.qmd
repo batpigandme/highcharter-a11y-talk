@@ -49,7 +49,7 @@ format:
 
 ## highcharter
 
-![](images/highcharter-logo.png){.absolute top="0" right="0" width="166" height="192"}
+![](images/highcharter-logo.png){.absolute top="0" right="0" width="166" height="192" fig-alt="hexagon logo for the highcharter package."}
 
 > highcharter is an R wrapper for Highcharts JavaScript library and its modules.
 
@@ -96,6 +96,8 @@ highchart() %>%
 
 ------------------------------------------------------------------------
 
+### San Francisco Arts Commission Example
+
 <iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload style="width:95%;height:95%;">
 
 </iframe>
@@ -104,13 +106,15 @@ highchart() %>%
 <https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
 :::
 
-----
+------------------------------------------------------------------------
 
-### San Francisco Arts Commission Example
+### San Francisco Arts Commission Example[^1]
 
-<iframe src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="demo-a11y-page mt-1" title="highcharts a11y chart keyboard navigation" allowfullscreen="" height="95%" width="95%" id="art-grants-demo"> </iframe>
+<iframe src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="demo-a11y-page mt-1" title="highcharts a11y chart keyboard navigation" allowfullscreen height="95%" width="95%" id="art-grants-demo">
 
----
+</iframe>
+
+------------------------------------------------------------------------
 
 [Highcharts Accessibility Demos & Examples \| Highcharts](https://www.highcharts.com/blog/accessibility/)
 
@@ -173,3 +177,5 @@ When you click the **Render** button a presentation will be generated that inclu
 ------------------------------------------------------------------------
 
 ## References
+
+[^1]: <https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
