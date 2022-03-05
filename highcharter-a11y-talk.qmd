@@ -5,7 +5,7 @@ date: 2022-03-09
 format: 
   revealjs:
     theme: [default, custom.scss]
-    preview-links: auto
+    preview-links: true
     bibliography: biblio.bib
     self-contained: false
     lang: en
@@ -94,6 +94,18 @@ highchart() %>%
     )
   )
 ```
+
+---
+
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload style="width:95%;height:95%;"></iframe>
+
+::: {.source .r-fit-text}
+<https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
+:::
+
+---
+
+<https://www.highcharts.com/blog/accessibility/>
 
 ---
 
