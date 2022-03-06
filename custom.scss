@@ -10,6 +10,7 @@ $font-family-serif: "Noto Serif", serif !default;
 
 // colors
 $link-color: #2f7851 !default;
+$a11y-gray: #595959 !default;
 
 // headings
 $presentation-title-slide-text-align: "left";
@@ -26,4 +27,11 @@ span.citation {
   right: 0;
   bottom: 0;
   font-size: smaller;
+}
+// CCR >= 7.0 for footer and blockquote
+.reveal blockquote {
+  color: $a11y-gray;
+}
+.footer p {
+  color: $a11y-gray;
 }

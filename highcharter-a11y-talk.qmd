@@ -53,8 +53,10 @@ format:
 
 > highcharter is an R wrapper for Highcharts JavaScript library and its modules.
 
-::: source
-<https://jkunst.com/highcharter/>
+![](images/screenshot-highcharter-homepage-min.png){.r-stretch fig-alt="Screenshot of highcharts r package homepage."}
+
+::: footer
+src: Joshua Kunst <https://jkunst.com/highcharter/>
 :::
 
 ------------------------------------------------------------------------
@@ -108,11 +110,7 @@ highchart() %>%
 
 ------------------------------------------------------------------------
 
-### San Francisco Arts Commission Example[^1]
-
-<iframe src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="demo-a11y-page mt-1" title="highcharts a11y chart keyboard navigation" allowfullscreen height="95%" width="95%" id="art-grants-demo">
-
-</iframe>
+### San Francisco Arts Commission Example
 
 ------------------------------------------------------------------------
 
@@ -178,4 +176,4 @@ When you click the **Render** button a presentation will be generated that inclu
 
 ## References
 
-[^1]: <https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
+
