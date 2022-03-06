@@ -8,15 +8,6 @@ $font-family-sans-alt: "Noto Sans Display", "Noto Sans", sans-serif !default;
 $font-family-monospace: "Noto Sans Mono", "Menlo", "Consolas", monospace !default;
 $font-family-serif: "Noto Serif", serif !default;
 
-// main colors
-$body-bg: $white !default;
-$body-color: $gray-dark !default;
-$text-muted: $gray-mid !default;
-
-// link colors
-$link-color: $cyan-dark !default;
-$link-color-hover: $cyan-mid !default;
-
 // color trios CCR mid >= 7 against white
 // CCR *-dark against *-light is >=7
 $white: #fff !default;
@@ -33,6 +24,15 @@ $geekblue-dark: #030852 !default;
 $cyan-light: #b5f5ec !default;
 $cyan-mid: #00626a !default;
 $cyan-dark: #002329 !default;
+
+// main colors
+$body-bg: $white !default;
+$body-color: $gray-dark !default;
+$text-muted: $gray-mid !default;
+
+// link colors
+$link-color: $geekblue-mid !default;
+$link-hover-color: $geekblue-dark !default;
 
 // headings
 $presentation-title-slide-text-align: "left";
@@ -56,4 +56,13 @@ span.citation {
 }
 .footer p {
   color: $gray-mid;
+}
+
+// link hover behavior
+.reveal a:hover {
+  background: $geekblue-light;
+  color: $geekblue-dark;
+  border-radius: 0.2rem;
+  transition-property: background, color;
+  transition-duration: 0.2s;
 }
