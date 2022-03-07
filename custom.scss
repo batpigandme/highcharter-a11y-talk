@@ -68,3 +68,10 @@ details > summary {
   transition-property: background, color;
   transition-duration: 0.2s;
 }
+
+// smaller text class for under images
+.smaller-text p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}

@@ -130,25 +130,35 @@ This example, which I got working, came from a GitHub issue in which the user de
 
 ### My journey
 
-![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter"}
+![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter" width="1050"}
+
+::: {.smaller-text}
+**Start**: Reading Silvia's [Resources for Data Viz Accessibility](https://www.silviacanelon.com/blog/2021-data-viz-a11y/). 
+
+**Finish**: Writing a [5-part series](https://dataand.me/#category:highcharter) on highcharter and the Highcharts accessibility module.
+:::
 
 ------------------------------------------------------------------------
 
 ### My journey
 
-![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code."}
+![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code." width="1050"}
+
+::: {.smaller-text}
+**Blog post series**: [Accessible Highcharts examples](https://www.highcharts.com/demo#accessible-charts) re-created in R using the {highcharter} package, with code and commentary!
+:::
 
 ------------------------------------------------------------------------
 
 ### My journey
 
-![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way."}
+![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way." width="1050"}
 
 ------------------------------------------------------------------------
 
 ### My journey
 
-![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way.  Red line pointing to that annotation read THIS TALK."}
+![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way.  Red line pointing to that annotation read THIS TALK." width="1050"}
 
 ------------------------------------------------------------------------
 
