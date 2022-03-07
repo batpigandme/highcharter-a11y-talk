@@ -154,11 +154,19 @@ This example, which I got working, came from a GitHub issue in which the user de
 
 ![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way." width="1050"}
 
+::: {.smaller-text}
+Between the start and finish, I learned a bunch of useful (non-code or framework-specific) things about accessibility...
+:::
+
 ------------------------------------------------------------------------
 
 ### My journey
 
 ![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way.  Red line pointing to that annotation read THIS TALK." width="1050"}
+
+::: {.r-fit-text}
+**Spoiler alert**: This talk focuses on those lessons learned.
+:::
 
 ------------------------------------------------------------------------
 
