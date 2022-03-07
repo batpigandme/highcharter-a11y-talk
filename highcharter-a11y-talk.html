@@ -515,8 +515,8 @@
 <h2>Motivating example</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-f3f37ce61d8c476bbff9" style="width:960px;height:480px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f3f37ce61d8c476bbff9">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Fruits"},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}},"xAxis":{"categories":["apple","banana","orange","pear"]},"series":[{"data":[2,3,5,4],"type":"column","name":"Count"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7bdda81c65163097c244" style="width:960px;height:480px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7bdda81c65163097c244">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Fruits"},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}},"xAxis":{"categories":["apple","banana","orange","pear"]},"series":[{"data":[2,3,5,4],"type":"column","name":"Count"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -527,6 +527,26 @@
 </iframe>
 <div class="source r-fit-text">
 <p><a href="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="uri">https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 class="r-fit-text" id="assistive-technology-and-the-accessibility-tree">Assistive technology and the accessibility tree</h3>
+
+<img data-src="images/wicg-aom-a11y-tree-min.png" alt="Flow from application UI to accessibility tree to assistive technology to user." width="1004" class="r-stretch"><div class="r-fit-text">
+<p>Source: Accessibility Object Model Explainer <span class="citation" data-cites="aom_explainer_2021">(<a href="#/ref-aom_explainer_2021" role="doc-biblioref" onclick="return false;">Boxhall et al. 2021</a>)</span></p>
+</div>
+<div class="footer">
+<p>Accessibility Object Model Explainer <a href="https://wicg.github.io/aom/explainer.html" class="uri">https://wicg.github.io/aom/explainer.html</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="ui-via-assistive-technology-example">UI via assistive technology: example</h3>
+
+<img data-src="images/wicg-aom-a11y-tree-example-min.png" alt="A full round trip from UI element to accessibility node to assistive technology to user to user keypress to accessibility API action method back to UI element." width="1000" class="r-stretch"><p>Source: Accessibility Object Model Explainer <span class="citation" data-cites="aom_explainer_2021">(<a href="#/ref-aom_explainer_2021" role="doc-biblioref" onclick="return false;">Boxhall et al. 2021</a>)</span></p>
+<div class="footer">
+<p>Accessibility Object Model Explainer <a href="https://wicg.github.io/aom/explainer.html" class="uri">https://wicg.github.io/aom/explainer.html</a></p>
 </div>
 </section>
 <section class="slide level2">
@@ -597,6 +617,9 @@
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
 <div id="ref-bert2018" class="csl-entry" role="doc-biblioentry">
 Bert, Alison, and Lisa Marie Hayes. 2018. <span>“Making Charts Accessible for People with Visual Impairments: <span>A</span> Collaboration Between <span>Elsevier</span> and <span>Highcharts</span> Sets a New Standard for Chart Accessibility.”</span> <span>Elsevier Connect</span>. February 18, 2018. <a href="https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments">https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments</a>.
+</div>
+<div id="ref-aom_explainer_2021" class="csl-entry" role="doc-biblioentry">
+Boxhall, Alice, James Craig, Dominic Mazzoni, and Alexander Surkov. 2021. <span>“The <span>Accessibility</span> <span>Object</span> <span>Model</span>: <span>Explainer</span>.”</span> <em>The Accessibility Object Model (AOM)</em>. WICG. <a href="https://wicg.github.io/aom/explainer.html">https://wicg.github.io/aom/explainer.html</a>.
 </div>
 <div id="ref-goransson2017" class="csl-entry" role="doc-biblioentry">
 Göransson, Daniel. 2017. <span>“Alt-Texts: <span>The Ultimate Guide</span>.”</span> <span>Axess Lab</span>. October 15, 2017. <a href="https://axesslab.com/alt-texts/">https://axesslab.com/alt-texts/</a>.
