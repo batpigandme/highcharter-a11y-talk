@@ -75,10 +75,9 @@ src: Joshua Kunst <https://jkunst.com/highcharter/>
 <https://www.silviacanelon.com/blog/2021-data-viz-a11y/>
 :::
 
-::: {.notes}
+::: notes
 At the time of its first writing, Highcharts' accessibility module didn't seem to be working with the highcharter package.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -120,10 +119,10 @@ highchart() %>%
 ```
 
 ::: footer
-highcharter GitHub issue: [Keyboard navigation (accessibility setting) not working &num;707](https://github.com/jbkunst/highcharter/issues/707)
+highcharter GitHub issue: [Keyboard navigation (accessibility setting) not working #707](https://github.com/jbkunst/highcharter/issues/707)
 :::
 
-::: {.notes}
+::: notes
 This example, which I got working, came from a GitHub issue in which the user described the expected behavior (working keyboard navigation), and the fact that they weren't able to get it to work with the highcharter package.
 :::
 
@@ -131,14 +130,14 @@ This example, which I got working, came from a GitHub issue in which the user de
 
 ## This talk...
 
-::: {r-stack}
-
+::: {.r-stack}
 ![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
 ![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+
 ![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+
 ![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -162,7 +161,7 @@ This example, which I got working, came from a GitHub issue in which the user de
 knitr::include_graphics("images/wicg-aom-a11y-tree-min.png")
 ```
 
-::: {.r-fit-text}
+::: r-fit-text
 Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 :::
 
@@ -180,7 +179,7 @@ Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 knitr::include_graphics("images/wicg-aom-a11y-tree-example-min.png")
 ```
 
-::: {.r-fit-text}
+::: r-fit-text
 Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 :::
 
@@ -191,7 +190,6 @@ Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 ## Hidden screen-reader region {visibility="hidden"}
 
 > This second video shows a screen reader navigating to the chart in a webpage, entering the hidden information region for the chart. This is where Ted and the developers added the structure description of chart that could benefit screen reader users, such as the chart type, axis information (automatically generated), and a long description of what is found in the chart (supplied by the chart creator): [Screen reader translating hidden information about chart details](https://www.elsevier.com/__data/assets/video_file/0006/1101597/Line2-top.mp4) [@bert2018].
-
 
 ## Video example {visibility="hidden"}
 
@@ -260,5 +258,3 @@ When you click the **Render** button a presentation will be generated that inclu
 ------------------------------------------------------------------------
 
 ## References
-
-
