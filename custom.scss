@@ -57,7 +57,9 @@ span.citation {
 .footer p {
   color: $gray-mid;
 }
-
+details > summary {
+  color: $gray-mid;
+}
 // link hover behavior
 .reveal a:hover {
   background: $geekblue-light;

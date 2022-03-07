@@ -9,6 +9,7 @@ format:
     bibliography: biblio.bib
     self-contained: false
     lang: en
+    code-fold: true
 ---
 
 ## About me 👋
@@ -116,7 +117,9 @@ highchart() %>%
 
 ------------------------------------------------------------------------
 
-[Highcharts Accessibility Demos & Examples \| Highcharts](https://www.highcharts.com/blog/accessibility/)
+## Video example
+
+<https://youtu.be/w6ntxLG6MLQ>
 
 ------------------------------------------------------------------------
 
