@@ -5,11 +5,12 @@ date: 2022-03-09
 format: 
   revealjs:
     theme: [default, custom.scss]
-    preview-links: true
     bibliography: biblio.bib
     self-contained: false
+    preview-links: auto
     lang: en
     code-fold: true
+    freeze: true
 ---
 
 ## About me 👋
@@ -62,7 +63,7 @@ src: Joshua Kunst <https://jkunst.com/highcharter/>
 
 ------------------------------------------------------------------------
 
-## Motivating example {.smaller .scrollable}
+## Motivating issue {.smaller}
 
 ```{r}
 #| echo: false
@@ -96,6 +97,10 @@ highchart() %>%
     )
   )
 ```
+
+::: footer
+highcharter GitHub issue: [Keyboard navigation (accessibility setting) not working &num;707](https://github.com/jbkunst/highcharter/issues/707)
+:::
 
 ------------------------------------------------------------------------
 
@@ -203,6 +208,10 @@ When you click the **Render** button a presentation will be generated that inclu
 ```{r}
 1 + 1
 ```
+
+## Code and working examples
+
+[Accessible highcharter GitHub repo](https://github.com/batpigandme/accessible-highcharter)
 
 ------------------------------------------------------------------------
 

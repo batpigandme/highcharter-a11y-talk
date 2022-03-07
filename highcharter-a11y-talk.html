@@ -515,13 +515,16 @@
 <p>src: Joshua Kunst <a href="https://jkunst.com/highcharter/" class="uri">https://jkunst.com/highcharter/</a></p>
 </div>
 </section>
-<section id="motivating-example" class="slide level2 smaller scrollable">
-<h2>Motivating example</h2>
+<section id="motivating-issue" class="slide level2 smaller">
+<h2>Motivating issue</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-5861960db5bc558976a4" style="width:960px;height:480px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5861960db5bc558976a4">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Fruits"},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}},"xAxis":{"categories":["apple","banana","orange","pear"]},"series":[{"data":[2,3,5,4],"type":"column","name":"Count"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ffb76505ee820994678a" style="width:960px;height:480px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ffb76505ee820994678a">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Fruits"},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}},"xAxis":{"categories":["apple","banana","orange","pear"]},"series":[{"data":[2,3,5,4],"type":"column","name":"Count"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
 </div>
+</div>
+<div class="footer">
+<p>highcharter GitHub issue: <a href="https://github.com/jbkunst/highcharter/issues/707">Keyboard navigation (accessibility setting) not working #707</a></p>
 </div>
 </section>
 <section class="slide level2">
@@ -600,6 +603,10 @@
 </div>
 </div>
 </section>
+<section id="code-and-working-examples" class="slide level2">
+<h2>Code and working examples</h2>
+<p><a href="https://github.com/batpigandme/accessible-highcharter">Accessible highcharter GitHub repo</a></p>
+</section>
 <section id="resources" class="slide level2">
 <h2>Resources</h2>
 <ul>
@@ -654,7 +661,7 @@ Kunst, Joshua. 2021. <em>Highcharter: <span>A</span> Wrapper for the ’Highchar
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': false,
+'previewLinksAuto': true,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -784,7 +791,7 @@ Kunst, Joshua. 2021. <em>Highcharter: <span>A</span> Wrapper for the ’Highchar
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: true,
+        previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
         transition: 'none',
