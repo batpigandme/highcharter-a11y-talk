@@ -128,16 +128,27 @@ This example, which I got working, came from a GitHub issue in which the user de
 
 ------------------------------------------------------------------------
 
-## This talk...
+### My journey
 
-::: {.r-stack}
-![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
-![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter"}
 
-![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+------------------------------------------------------------------------
 
-![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
-:::
+### My journey
+
+![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code."}
+
+------------------------------------------------------------------------
+
+### My journey
+
+![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way."}
+
+------------------------------------------------------------------------
+
+### My journey
+
+![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){fig-alt="Start point Resources for Data Viz Accessibility, Finish point five blog posts on accessibility with Highcharts and highcharter. Annotation pointing to Finish reads: Accessible Highcharts examples created with highcharter and working R code. Annotation pointing to center of line connecting start and finish reads: Me learning things along the way.  Red line pointing to that annotation read THIS TALK."}
 
 ------------------------------------------------------------------------
 
