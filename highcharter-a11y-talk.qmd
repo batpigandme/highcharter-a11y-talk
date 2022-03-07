@@ -54,7 +54,7 @@ format:
 
 > highcharter is an R wrapper for Highcharts JavaScript library and its modules.
 
-![](images/screenshot-highcharter-homepage-min.png){.r-stretch fig-alt="Screenshot of highcharts r package homepage."}
+![](images/screenshot-highcharter-homepage-min.png){fig-alt="Screenshot of highcharts r package homepage." fig-align="center" width="700"}
 
 ::: footer
 src: Joshua Kunst <https://jkunst.com/highcharter/>
