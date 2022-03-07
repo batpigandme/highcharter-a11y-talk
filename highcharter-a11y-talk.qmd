@@ -43,7 +43,9 @@ format:
 
 > Highcharts...is a pure JavaScript charting library based on SVG that makes it easy for developers to create responsive, interactive and accessible charts.
 
-::: source
+![](images/screenshot-highchartsjs-homepage-min.png){fig-alt="Screenshot of highcharts JS page, shows an example chart of distribution of icebergs." fig-align="center"}
+
+::: footer
 <https://www.highcharts.com/products/highcharts/>
 :::
 
@@ -77,9 +79,12 @@ src: Joshua Kunst <https://jkunst.com/highcharter/>
 At the time of its first writing, Highcharts' accessibility module didn't seem to be working with the highcharter package.
 :::
 
+
 ------------------------------------------------------------------------
 
-## Motivating issue {.smaller}
+## Motivating example {.smaller .scrollable}
+
+Now with working keyboard navigation! 🎉
 
 ```{r}
 #| echo: false
@@ -117,6 +122,23 @@ highchart() %>%
 ::: footer
 highcharter GitHub issue: [Keyboard navigation (accessibility setting) not working &num;707](https://github.com/jbkunst/highcharter/issues/707)
 :::
+
+::: {.notes}
+This example, which I got working, came from a GitHub issue in which the user described the expected behavior (working keyboard navigation), and the fact that they weren't able to get it to work with the highcharter package.
+:::
+
+------------------------------------------------------------------------
+
+## This talk...
+
+::: {r-stack}
+
+![](images/1-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+![](images/2-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+![](images/3-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+![](images/4-highcharter-diagram-start-finish-learning-along-the-way-min.png){.fragment width="998" height"401"}
+:::
+
 
 ------------------------------------------------------------------------
 
