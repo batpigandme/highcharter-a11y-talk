@@ -63,6 +63,22 @@ src: Joshua Kunst <https://jkunst.com/highcharter/>
 
 ------------------------------------------------------------------------
 
+## Background / inspiration {.r-fit-text}
+
+**Resources for Data Viz Accessibility** by Silvia Canelón
+
+> A selection of general and R-specific resources on how and why to make accessible data visualizations. [@canelon2021]
+
+::: footer
+<https://www.silviacanelon.com/blog/2021-data-viz-a11y/>
+:::
+
+::: {.notes}
+At the time of its first writing, Highcharts' accessibility module didn't seem to be working with the highcharter package.
+:::
+
+------------------------------------------------------------------------
+
 ## Motivating issue {.smaller}
 
 ```{r}
