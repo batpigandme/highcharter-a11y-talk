@@ -145,15 +145,12 @@ Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 :::
 
-------------------------------------------------------------------------
-
-### Hidden screen-reader region
+## Hidden screen-reader region {visibility="hidden"}
 
 > This second video shows a screen reader navigating to the chart in a webpage, entering the hidden information region for the chart. This is where Ted and the developers added the structure description of chart that could benefit screen reader users, such as the chart type, axis information (automatically generated), and a long description of what is found in the chart (supplied by the chart creator): [Screen reader translating hidden information about chart details](https://www.elsevier.com/__data/assets/video_file/0006/1101597/Line2-top.mp4) [@bert2018].
 
-------------------------------------------------------------------------
 
-## Video example
+## Video example {visibility="hidden"}
 
 <https://youtu.be/w6ntxLG6MLQ>
 
