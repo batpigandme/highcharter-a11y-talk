@@ -648,9 +648,30 @@
 <section class="slide level2">
 
 <h3 class="smaller" id="highcharts-accessibility-background-1">Highcharts &amp; accessibility: Background</h3>
+<p>Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)</p>
 <ul>
-<li><h2 id="øystein-moseng-highsoft-and-ted-gies-elsevier-presentations-at-csun-assistive-technology-conferences">Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)</h2></li>
+<li>Accessible SVG Charts Using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> <span class="citation" data-cites="moseng2016">(<a href="#/ref-moseng2016" role="doc-biblioref" onclick="return false;">Moseng and Gies 2016</a>)</span>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kwCOxZ6JJ6I">Video interview</a></li>
+</ul></li>
+<li>Highcharts - The Next Chapter <span class="citation" data-cites="gies2019">(<a href="#/ref-gies2019" role="doc-biblioref" onclick="return false;">Gies and Moseng 2019</a>)</span><br>
+</li>
+<li>Accessible Visualizations: Maps, Annotations, and Spark lines <span class="citation" data-cites="gies2020">(<a href="#/ref-gies2020" role="doc-biblioref" onclick="return false;">Gies and Moseng 2020</a>)</span></li>
 </ul>
+</section>
+<section class="slide level2">
+
+<h3 class="smaller" id="highcharts-accessibility-background-2">Highcharts &amp; accessibility: Background</h3>
+<p>Collaboration with <a href="http://sonify.psych.gatech.edu/">Georgia Tech Sonification Lab</a> <span class="citation" data-cites="cantrell2021">(<a href="#/ref-cantrell2021" role="doc-biblioref" onclick="return false;">Cantrell, Walker, and Moseng 2021</a>)</span></p>
+<ul>
+<li>Highcharts Sonification Studio
+<ul>
+<li><a href="https://sonification.highcharts.com/" class="uri">https://sonification.highcharts.com/</a></li>
+</ul></li>
+</ul>
+<div class="footer">
+<p><a href="https://gvu.gatech.edu/news/new-browser-based-chart-builder-gives-line-graphs-scatterplots-their-very-own-audio-track">New Browser-Based Chart Builder Gives Line Graphs, Scatterplots Their Very Own Audio Track</a></p>
+</div>
 </section>
 <section class="slide level2">
 
@@ -672,37 +693,30 @@
 </section>
 <section class="slide level2">
 
-<h3 id="feature-screen-reader-div">Feature: Screen-reader div</h3>
-</section>
-<section class="slide level2">
-
-<h3 id="feature-sonification">Feature: Sonification</h3>
-<ul>
-<li>Highcharts JS version
-<ul>
-<li><a href="https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon">Demo</a></li>
-</ul></li>
-<li>Highcharts Sonification Studio (in collaboration with Georgia Institute of Technology)
-<ul>
-<li><a href="https://sonification.highcharts.com/" class="uri">https://sonification.highcharts.com/</a></li>
-</ul></li>
-</ul>
-<div class="source">
-<p><em>n.b.</em> I didn’t reproduce these.</p>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 class="smaller scrollable" id="accessible-line-chart-re-creation">Accessible line chart re-creation</h3>
+<h3 class="smaller scrollable" id="access-to-data-table">Access to data table</h3>
+<p>Some users preferred this when data was simple</p>
 <div class="cell" data-hash="highcharter-a11y-talk_cache/revealjs/unnamed-chunk-4_b15e98e9d5b8947e24a55154a0a1a92c">
 <div class="cell-output-display">
-<div id="htmlwidget-594d3e15c1d52e7924c3" style="width:960px;height:480px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-594d3e15c1d52e7924c3">{"x":{"hc_opts":{"chart":{"reflow":true,"type":"spline","accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true},"linkedDescription":"Line chart demonstrating some accessibility features of Highcharts. \n      The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. \n      JAWS was the most used screen reader until 2019, when NVDA took over.\n      VoiceOver is the third most used screen reader, followed by Narrator.\n      ZoomText/Fusion had a surge in 2015, but usage is otherwise low.\n      The overall use of other screen readers has declined drastically the past few years."},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"title":{"text":"Most common desktop screen readers"},"yAxis":{"title":{"text":"Percentage usage"},"accessibility":{"description":"Percentage usage"}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"spline":{"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}}},"subtitle":{"text":"Source: WebAIM."},"caption":{"text":"Line chart demonstrating some accessibility features of Highcharts. The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. JAWS was the most used screen reader until 2019, when NVDA took over. VoiceOver is the third most used screen reader, followed by Narrator. ZoomText/Fusion had a surge in 2015, but usage is otherwise low. The overall use of other screen readers has declined drastically the past few years."},"xAxis":{"categories":["Dec 2010","May 2012","Jan 2014","July 2015","Oct 2017","Sep 2019"],"title":{"text":"Time"},"accesibility":{"enabled":true,"description":"Time from December 2010 to September 2019","range":"December 2010 to September 2019"},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"legend":{"symbolWidth":40},"series":[{"data":[34.8,43,51.2,41.4,64.9,72.4],"name":"NVDA","color":"#49a65e","label":{"enabled":true},"marker":{"symbol":"circle"}},{"data":[69.6,63.7,63.9,43.7,66,61.7],"name":"JAWS","color":"#5f98cf","dashStyle":"ShortDashDot","label":{"enabled":true},"marker":{"symbol":"diamond"}},{"data":[20.2,30.7,36.8,30.9,39.6,47.1],"name":"VoiceOver","color":"#434348","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"square"}},{"data":[null,null,null,null,21.4,30.3],"name":"Narrator","color":"#b381b3","dashStyle":"Dash","label":{"enabled":true},"marker":{"symbol":"triangle"}},{"data":[6.1,6.8,5.3,27.5,6,5.5],"name":"ZoomText/Fusion","color":"#b68c51","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"triangle-down"}},{"data":[42.6,51.5,54.2,45.8,20.2,15.4],"name":"Other","color":"#f45b5b","dashStyle":"ShortDash","label":{"enabled":true},"marker":{"symbol":"circle"}}],"tooltip":{"valueSuffix":"%"}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6b1e0f1c096dfc58a859" style="width:960px;height:480px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6b1e0f1c096dfc58a859">{"x":{"hc_opts":{"chart":{"reflow":true,"type":"spline","accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true},"linkedDescription":"Line chart demonstrating some accessibility features of Highcharts. \n      The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. \n      JAWS was the most used screen reader until 2019, when NVDA took over.\n      VoiceOver is the third most used screen reader, followed by Narrator.\n      ZoomText/Fusion had a surge in 2015, but usage is otherwise low.\n      The overall use of other screen readers has declined drastically the past few years."},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"title":{"text":"Most common desktop screen readers"},"yAxis":{"title":{"text":"Percentage usage"},"accessibility":{"description":"Percentage usage"}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"spline":{"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}}},"subtitle":{"text":"Source: WebAIM."},"caption":{"text":"Line chart demonstrating some accessibility features of Highcharts. The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. JAWS was the most used screen reader until 2019, when NVDA took over. VoiceOver is the third most used screen reader, followed by Narrator. ZoomText/Fusion had a surge in 2015, but usage is otherwise low. The overall use of other screen readers has declined drastically the past few years."},"xAxis":{"categories":["Dec 2010","May 2012","Jan 2014","July 2015","Oct 2017","Sep 2019"],"title":{"text":"Time"},"accesibility":{"enabled":true,"description":"Time from December 2010 to September 2019","range":"December 2010 to September 2019"},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"legend":{"symbolWidth":40},"series":[{"data":[34.8,43,51.2,41.4,64.9,72.4],"name":"NVDA","color":"#49a65e","label":{"enabled":true},"marker":{"symbol":"circle"}},{"data":[69.6,63.7,63.9,43.7,66,61.7],"name":"JAWS","color":"#5f98cf","dashStyle":"ShortDashDot","label":{"enabled":true},"marker":{"symbol":"diamond"}},{"data":[20.2,30.7,36.8,30.9,39.6,47.1],"name":"VoiceOver","color":"#434348","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"square"}},{"data":[null,null,null,null,21.4,30.3],"name":"Narrator","color":"#b381b3","dashStyle":"Dash","label":{"enabled":true},"marker":{"symbol":"triangle"}},{"data":[6.1,6.8,5.3,27.5,6,5.5],"name":"ZoomText/Fusion","color":"#b68c51","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"triangle-down"}},{"data":[42.6,51.5,54.2,45.8,20.2,15.4],"name":"Other","color":"#f45b5b","dashStyle":"ShortDash","label":{"enabled":true},"marker":{"symbol":"circle"}}],"tooltip":{"valueSuffix":"%"}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="footer">
 <p>Blog post: <a href="https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/">{higcharter} and the Highcharts accessibility module: Part 2</a></p>
 </div>
+</section>
+<section class="slide level2">
+
+<h3 id="sonification">Sonification</h3>
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon" width="95%" height="80%">
+</iframe>
+<div class="footer">
+<p><a href="https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon" class="uri">https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="screen-reader-div">Screen-reader div</h3>
 </section>
 <section class="slide level2">
 
@@ -791,7 +805,7 @@
 <h2>Resources</h2>
 <ul>
 <li><p><a href="https://axesslab.com/alt-texts/">Alt-texts: The Ultimate Guide</a> by Daniel Göransson <span class="citation" data-cites="goransson2017">(<a href="#/ref-goransson2017" role="doc-biblioref" onclick="return false;">Göransson 2017</a>)</span></p></li>
-<li><p>Video: <a href="https://www.youtube.com/watch?v=kwCOxZ6JJ6I">Highsoft &amp; Elsevier talk about Chart Accessibility at CSUN 2019</a> (Interview with Øystein Moseng and Ted Gies)</p></li>
+<li></li>
 </ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
@@ -809,6 +823,15 @@ Boxhall, Alice, James Craig, Dominic Mazzoni, and Alexander Surkov. 2021. <span>
 <div id="ref-canelon2021" class="csl-entry" role="doc-biblioentry">
 Canelón, Silvia. 2021. <span>“Resources for <span>Data Viz Accessibility</span>.”</span> September 23, 2021. <a href="https://silvia.rbind.io/blog/2021-curated-compilations/01-data-viz-a11y/">https://silvia.rbind.io/blog/2021-curated-compilations/01-data-viz-a11y/</a>.
 </div>
+<div id="ref-cantrell2021" class="csl-entry" role="doc-biblioentry">
+Cantrell, Stanley J, Bruce N Walker, and Øystein Moseng. 2021. <span>“Highcharts <span>Sonification Studio</span>: <span>An</span> Online, Open-Source, Extensible, and Accessible Data Sonification Tool.”</span> In <em>The 26th <span>International Conference</span> on <span>Auditory Display</span> (<span>ICAD</span> 2021)</em>, 7.
+</div>
+<div id="ref-gies2019" class="csl-entry" role="doc-biblioentry">
+Gies, Ted, and Øystein Moseng. 2019. <span>“Highcharts <span>-</span> <span>The Next Chapter</span>.”</span> Presented at the <span>CSUN</span> 2019, March 14. <a href="https://www.slideshare.net/tedgies/highcharts-the-next-chapter-csun-2019">https://www.slideshare.net/tedgies/highcharts-the-next-chapter-csun-2019</a>.
+</div>
+<div id="ref-gies2020" class="csl-entry" role="doc-biblioentry">
+———. 2020. <span>“Accessible <span>Visualizations</span>: <span>Maps</span>, <span>Annotations</span>, and <span>Spark</span> Lines.”</span> Presented at the <span>CSUN</span> 2020, March 11. <a href="https://www.slideshare.net/tedgies/csun-2020-accessible-visualizations-maps-annotations-and-spark-lines">https://www.slideshare.net/tedgies/csun-2020-accessible-visualizations-maps-annotations-and-spark-lines</a>.
+</div>
 <div id="ref-goransson2017" class="csl-entry" role="doc-biblioentry">
 Göransson, Daniel. 2017. <span>“Alt-Texts: <span>The Ultimate Guide</span>.”</span> <span>Axess Lab</span>. October 15, 2017. <a href="https://axesslab.com/alt-texts/">https://axesslab.com/alt-texts/</a>.
 </div>
@@ -820,6 +843,9 @@ Highsoft AS. 2021a. <span>“Gaining Competitive Advantage Through Accessible We
 </div>
 <div id="ref-kunst2021" class="csl-entry" role="doc-biblioentry">
 Kunst, Joshua. 2021. <em>Highcharter: <span>A</span> Wrapper for the ’Highcharts’ Library</em> (version 0.8.2). <a href="https://jkunst.com/highcharter/">https://jkunst.com/highcharter/</a>.
+</div>
+<div id="ref-moseng2016" class="csl-entry" role="doc-biblioentry">
+Moseng, Øystein, and Ted Gies. 2016. <span>“Acessible <span>SVG</span> Charts Using <span>ARIA</span>.”</span> Presented at the <span>CSUN</span> 2016, March 4. <a href="https://www.slideshare.net/tedgies/accessible-svg-charts-using-aria-2016">https://www.slideshare.net/tedgies/accessible-svg-charts-using-aria-2016</a>.
 </div>
 </div>
 </section>

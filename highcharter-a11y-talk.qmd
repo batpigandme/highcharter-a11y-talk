@@ -249,8 +249,26 @@ Collaborations with Elsevier, Georgia Institute of Technology
 
 ### Highcharts & accessibility: Background {.smaller}
 
-* Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)  
-  - 
+Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)  
+
+* Accessible SVG Charts Using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> [@moseng2016]  
+  - [Video interview](https://www.youtube.com/watch?v=kwCOxZ6JJ6I)
+* Highcharts - The Next Chapter [@gies2019]  
+* Accessible Visualizations: Maps, Annotations, and Spark lines [@gies2020]
+
+-----------------------------------------------------------------------
+
+### Highcharts & accessibility: Background {.smaller}
+
+Collaboration with [Georgia Tech Sonification Lab](http://sonify.psych.gatech.edu/)
+[@cantrell2021] 
+
+* Highcharts Sonification Studio  
+  - <https://sonification.highcharts.com/>
+
+::: footer
+[New Browser-Based Chart Builder Gives Line Graphs, Scatterplots Their Very Own Audio Track](https://gvu.gatech.edu/news/new-browser-based-chart-builder-gives-line-graphs-scatterplots-their-very-own-audio-track)
+:::
 
 
 ------------------------------------------------------------------------
@@ -272,26 +290,9 @@ Collaborations with Elsevier, Georgia Institute of Technology
 
 ------------------------------------------------------------------------
 
-### Feature: Screen-reader div
+### Access to data table {.smaller .scrollable}
 
-------------------------------------------------------------------------
-
-### Feature: Sonification
-
-* Highcharts JS version  
-  - [Demo](https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon)
-
-* Highcharts Sonification Studio (in collaboration with Georgia Institute of Technology)  
-  - <https://sonification.highcharts.com/>
-
-
-::: source
-_n.b._ I didn't reproduce these.
-:::
-
------------------------------------------------------------------------
-
-### Accessible line chart re-creation {.smaller .scrollable}
+Some users preferred this when data was simple
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
@@ -425,6 +426,21 @@ hc_sr_setup %>%
 Blog post: [{higcharter} and the Highcharts accessibility module: Part 2](https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/)
 :::
 
+------------------------------------------------------------------------
+
+### Sonification
+
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon" width="95%" height="80%"></iframe>
+
+
+::: footer
+<https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon>
+:::
+
+------------------------------------------------------------------------
+
+### Screen-reader div
+
 
 ------------------------------------------------------------------------
 
@@ -537,7 +553,7 @@ function(input, output) {
 
 -   [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
 
-- Video: [Highsoft & Elsevier talk about Chart Accessibility at CSUN 2019](https://www.youtube.com/watch?v=kwCOxZ6JJ6I) (Interview with Øystein Moseng and Ted Gies)
+- 
 
 ------------------------------------------------------------------------
 
