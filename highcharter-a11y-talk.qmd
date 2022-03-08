@@ -225,20 +225,62 @@ I'll focus on the first three features.
 
 [Making charts accessible for people with visual impairments](https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments)
 
-Key: Research and **User Testing**
+Accessibility-Expert and **User Testing**
+
+::: {.fragment}
 
 > “This innovation allows me to interact with the chart and understand the relationships of all the components of the chart to all other components rather than just getting a description of the chart”
 
+::: {.r-fit-text}
+&mdash; [Lucy Greco](https://webaccess.berkeley.edu/about/staff-bios), Web Accessibility Evangelist, Highcharts test user (in [@bert2018])
+:::
+
+:::
+
+::: notes
+Collaborations with Elsevier, Georgia Institute of Technology
+:::
+
 ------------------------------------------------------------------------
 
-### San Francisco Arts Commission Example
+### Highcharts & accessibility: background
 
-<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload style="width:95%;height:95%;">
+* Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)
 
-</iframe>
+------------------------------------------------------------------------
 
-::: {.source .r-fit-text}
+### Keyboard Navigation {.smaller .scrollable}
+::: {.r-stack}
+::: {.fragment .fade-out}
+> ...users are able to navigate and interact with the data points, chart menu, and other chart controls using the keyboard only.  
+:::
+
+::: {.fragment}
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" width="900" height="640"></iframe>
+:::
+:::
+
+::: footer
 <https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants>
+:::
+
+------------------------------------------------------------------------
+
+### Feature: Screen-reader div
+
+------------------------------------------------------------------------
+
+### Feature: Sonification
+
+* Highcharts JS version  
+  - [Demo](https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon)
+
+* Highcharts Sonification Studio (in collaboration with Georgia Institute of Technology)  
+  - <https://sonification.highcharts.com/>
+
+
+::: source
+_n.b._ I didn't reproduce these.
 :::
 
 -----------------------------------------------------------------------
@@ -396,6 +438,10 @@ Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 :::
 
+::: notes
+platform-specific accessibility APIs
+:::
+
 ------------------------------------------------------------------------
 
 ### UI via assistive technology: example
@@ -412,6 +458,10 @@ Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 
 ::: footer
 Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
+:::
+
+::: notes
+This is a difficult problem space because accessibility APIs are browser and platform specific. SVG technology stuff is cutting edge...learn more in video linked to at end from CSUN 2019
 :::
 
 ## Hidden screen-reader region {visibility="hidden"}
@@ -464,16 +514,6 @@ function(input, output) {
 
 ------------------------------------------------------------------------
 
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-------------------------------------------------------------------------
-
 ## Code and working examples
 
 [Accessible highcharter GitHub repo](https://github.com/batpigandme/accessible-highcharter)
@@ -484,7 +524,7 @@ When you click the **Render** button a presentation will be generated that inclu
 
 -   [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
 
-- Video: [Highsoft & Elsevier talk about Chart Accessibility at CSUN 2019](https://www.youtube.com/watch?v=kwCOxZ6JJ6I)
+- Video: [Highsoft & Elsevier talk about Chart Accessibility at CSUN 2019](https://www.youtube.com/watch?v=kwCOxZ6JJ6I) (Interview with Øystein Moseng and Ted Gies)
 
 ------------------------------------------------------------------------
 

@@ -627,18 +627,63 @@
 
 <h3 class="smaller" id="highcharts-accessibility-background">Highcharts &amp; accessibility: Background</h3>
 <p><a href="https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments">Making charts accessible for people with visual impairments</a></p>
-<p>Key: Research and <strong>User Testing</strong></p>
+<p>Accessibility-Expert and <strong>User Testing</strong></p>
+<div class="fragment">
 <blockquote>
 <p>“This innovation allows me to interact with the chart and understand the relationships of all the components of the chart to all other components rather than just getting a description of the chart”</p>
 </blockquote>
+<div class="r-fit-text">
+<p>— <a href="https://webaccess.berkeley.edu/about/staff-bios">Lucy Greco</a>, Web Accessibility Evangelist, Highcharts test user (in <span class="citation" data-cites="bert2018">(<a href="#/ref-bert2018" role="doc-biblioref" onclick="return false;">Bert and Hayes 2018</a>)</span>)</p>
+</div>
+</div>
+<aside class="notes">
+<p>Collaborations with Elsevier, Georgia Institute of Technology</p>
+</aside>
 </section>
 <section class="slide level2">
 
-<h3 id="san-francisco-arts-commission-example">San Francisco Arts Commission Example</h3>
-<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" data-preload="" style="width:95%;height:95%;">
+<h3 id="highcharts-accessibility-background-1">Highcharts &amp; accessibility: background</h3>
+<ul>
+<li>Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="smaller scrollable" id="keyboard-navigation">Keyboard Navigation</h3>
+<div class="r-stack">
+<div class="fragment fade-out">
+<blockquote>
+<p>…users are able to navigate and interact with the data points, chart menu, and other chart controls using the keyboard only.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<iframe data-src="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" width="900" height="640">
 </iframe>
-<div class="source r-fit-text">
+</div>
+</div>
+<div class="footer">
 <p><a href="https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants" class="uri">https://www.highcharts.com/samples/nonav/highcharts/accessibility/art-grants</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="feature-screen-reader-div">Feature: Screen-reader div</h3>
+</section>
+<section class="slide level2">
+
+<h3 id="feature-sonification">Feature: Sonification</h3>
+<ul>
+<li>Highcharts JS version
+<ul>
+<li><a href="https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon">Demo</a></li>
+</ul></li>
+<li>Highcharts Sonification Studio (in collaboration with Georgia Institute of Technology)
+<ul>
+<li><a href="https://sonification.highcharts.com/" class="uri">https://sonification.highcharts.com/</a></li>
+</ul></li>
+</ul>
+<div class="source">
+<p><em>n.b.</em> I didn’t reproduce these.</p>
 </div>
 </section>
 <section class="slide level2">
@@ -664,6 +709,9 @@
 <div class="footer">
 <p>Accessibility Object Model Explainer <a href="https://wicg.github.io/aom/explainer.html" class="uri">https://wicg.github.io/aom/explainer.html</a></p>
 </div>
+<aside class="notes">
+<p>platform-specific accessibility APIs</p>
+</aside>
 </section>
 <section class="slide level2">
 
@@ -675,6 +723,9 @@
 <div class="footer">
 <p>Accessibility Object Model Explainer <a href="https://wicg.github.io/aom/explainer.html" class="uri">https://wicg.github.io/aom/explainer.html</a></p>
 </div>
+<aside class="notes">
+<p>This is a difficult problem space because accessibility APIs are browser and platform specific. SVG technology stuff is cutting edge…learn more in video linked to at end from CSUN 2019</p>
+</aside>
 </section>
 
 
@@ -712,15 +763,6 @@
 <span id="cb2-11" class="hljs-ln-code"><a href="#cb2-11"></a>  })</span>
 <span id="cb2-12" class="hljs-ln-code"><a href="#cb2-12"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell" data-hash="highcharter-a11y-talk_cache/revealjs/unnamed-chunk-8_9a5841fc861bf81510cdd7e84402fdc1">
-<div class="cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-</section>
 <section id="code-and-working-examples" class="slide level2">
 <h2>Code and working examples</h2>
 <p><a href="https://github.com/batpigandme/accessible-highcharter">Accessible highcharter GitHub repo</a></p>
@@ -729,7 +771,7 @@
 <h2>Resources</h2>
 <ul>
 <li><p><a href="https://axesslab.com/alt-texts/">Alt-texts: The Ultimate Guide</a> by Daniel Göransson <span class="citation" data-cites="goransson2017">(<a href="#/ref-goransson2017" role="doc-biblioref" onclick="return false;">Göransson 2017</a>)</span></p></li>
-<li><p>Video: <a href="https://www.youtube.com/watch?v=kwCOxZ6JJ6I">Highsoft &amp; Elsevier talk about Chart Accessibility at CSUN 2019</a></p></li>
+<li><p>Video: <a href="https://www.youtube.com/watch?v=kwCOxZ6JJ6I">Highsoft &amp; Elsevier talk about Chart Accessibility at CSUN 2019</a> (Interview with Øystein Moseng and Ted Gies)</p></li>
 </ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
