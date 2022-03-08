@@ -31,8 +31,8 @@ $body-color: $gray-dark !default;
 // $text-muted: $gray-mid !default;
 
 // link colors
-$link-color: $geekblue-mid !default;
-$link-hover-color: $geekblue-dark !default;
+$link-color: $cyan-mid !default;
+$link-hover-color: $cyan-dark !default;
 
 // headings
 $presentation-title-slide-text-align: "left";
@@ -63,8 +63,8 @@ details > summary {
 }
 // link hover behavior
 .reveal a:hover {
-  background: $geekblue-light;
-  color: $geekblue-dark;
+  background: $cyan-light;
+  color: $cyan-dark;
   border-radius: 0.2rem;
   transition-property: background, color;
   transition-duration: 0.2s;
