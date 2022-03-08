@@ -76,3 +76,14 @@ details > summary {
   font-size: 1.6rem;
   line-height: 2.2rem;
 }
+
+// change bullet for sublists
+// adapted from: https://stackoverflow.com/a/41314658/785190
+.reveal ul ul {
+  list-style-type: "\2799";
+  list-style-position: inside;
+}
+
+.reveal ul ul li:before {
+  content: "\00a0 \00a0 \00a0"; //3 non breakable spaces
+}

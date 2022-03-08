@@ -514,9 +514,16 @@ function(input, output) {
 
 ------------------------------------------------------------------------
 
-## Code and working examples
+## R code and working examples {.smaller}
 
-[Accessible highcharter GitHub repo](https://github.com/batpigandme/accessible-highcharter)
+* [Accessible {highcharter} GitHub repo](https://github.com/batpigandme/accessible-highcharter) (rendered demos of my charts, and source `.Rmd`s)  
+* Blog post series:  
+  - [Adventures with the Highcharts accessibility module: Part 1](https://dataand.me/posts/2021-11-10-adventures-with-the-highcharts-accessibility-module-part-1/)  
+  - [{higcharter} and the Highcharts accessibility module: Part 2](https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/)  
+  - [Highcharts accessibility module with {highcharter}: Part 3](https://dataand.me/posts/2021-11-13-highcharts-accessibility-module-with-highcharter-part-3/)  
+  - [Accessible {highcharter}: Part 4](https://dataand.me/posts/2021-11-15-accessible-highcharter-part-4/)  
+  - [{highcharter} and the accessibility module: Part 5](https://dataand.me/posts/2021-11-16-highcharter-and-the-accessibility-module-part-5/)
+
 
 ------------------------------------------------------------------------
 
