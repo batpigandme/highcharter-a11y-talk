@@ -532,6 +532,7 @@
 </section>
 <section id="motivating-example" class="slide level2 smaller scrollable">
 <h2>Motivating example</h2>
+<p><a href="https://github.com/jbkunst/highcharter/issues/707">Keyboard navigation (accessibility setting) not working #707</a></p>
 <p>Now with working keyboard navigation! 🎉</p>
 <div class="cell" data-hash="highcharter-a11y-talk_cache/revealjs/unnamed-chunk-2_ee7d69d003692ea585716114821bc637">
 <div class="cell-output-display">
@@ -540,7 +541,7 @@
 </div>
 </div>
 <div class="footer">
-<p>highcharter GitHub issue: <a href="https://github.com/jbkunst/highcharter/issues/707">Keyboard navigation (accessibility setting) not working #707</a></p>
+<p>Blog post: <a href="https://dataand.me/posts/2021-11-10-adventures-with-the-highcharts-accessibility-module-part-1/">Adventures with the Highcharts accessibility module: Part 1</a></p>
 </div>
 <aside class="notes">
 <p>This example, which I got working, came from a GitHub issue in which the user described the expected behavior (working keyboard navigation), and the fact that they weren’t able to get it to work with the highcharter package.</p>
@@ -633,12 +634,15 @@
 </section>
 <section class="slide level2">
 
-<h3 id="accessible-line-chart-re-creation">Accessible line chart re-creation</h3>
+<h3 class="smaller scrollable" id="accessible-line-chart-re-creation">Accessible line chart re-creation</h3>
 <div class="cell" data-hash="highcharter-a11y-talk_cache/revealjs/unnamed-chunk-4_b15e98e9d5b8947e24a55154a0a1a92c">
 <div class="cell-output-display">
 <div id="htmlwidget-594d3e15c1d52e7924c3" style="width:960px;height:480px;" class="highchart html-widget"></div>
 <script type="application/json" data-for="htmlwidget-594d3e15c1d52e7924c3">{"x":{"hc_opts":{"chart":{"reflow":true,"type":"spline","accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true},"linkedDescription":"Line chart demonstrating some accessibility features of Highcharts. \n      The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. \n      JAWS was the most used screen reader until 2019, when NVDA took over.\n      VoiceOver is the third most used screen reader, followed by Narrator.\n      ZoomText/Fusion had a surge in 2015, but usage is otherwise low.\n      The overall use of other screen readers has declined drastically the past few years."},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"title":{"text":"Most common desktop screen readers"},"yAxis":{"title":{"text":"Percentage usage"},"accessibility":{"description":"Percentage usage"}},"credits":{"enabled":false},"exporting":{"enabled":true,"accessibility":{"enabled":true}},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"spline":{"accessibility":{"enabled":true,"keyboardNavigation":{"enabled":true}}}},"subtitle":{"text":"Source: WebAIM."},"caption":{"text":"Line chart demonstrating some accessibility features of Highcharts. The chart displays the most commonly used screen readers in surveys taken by WebAIM from December 2010 to September 2019. JAWS was the most used screen reader until 2019, when NVDA took over. VoiceOver is the third most used screen reader, followed by Narrator. ZoomText/Fusion had a surge in 2015, but usage is otherwise low. The overall use of other screen readers has declined drastically the past few years."},"xAxis":{"categories":["Dec 2010","May 2012","Jan 2014","July 2015","Oct 2017","Sep 2019"],"title":{"text":"Time"},"accesibility":{"enabled":true,"description":"Time from December 2010 to September 2019","range":"December 2010 to September 2019"},"dateTimeLabelFormats":{"month":{"main":"%b %Y"}}},"legend":{"symbolWidth":40},"series":[{"data":[34.8,43,51.2,41.4,64.9,72.4],"name":"NVDA","color":"#49a65e","label":{"enabled":true},"marker":{"symbol":"circle"}},{"data":[69.6,63.7,63.9,43.7,66,61.7],"name":"JAWS","color":"#5f98cf","dashStyle":"ShortDashDot","label":{"enabled":true},"marker":{"symbol":"diamond"}},{"data":[20.2,30.7,36.8,30.9,39.6,47.1],"name":"VoiceOver","color":"#434348","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"square"}},{"data":[null,null,null,null,21.4,30.3],"name":"Narrator","color":"#b381b3","dashStyle":"Dash","label":{"enabled":true},"marker":{"symbol":"triangle"}},{"data":[6.1,6.8,5.3,27.5,6,5.5],"name":"ZoomText/Fusion","color":"#b68c51","dashStyle":"ShortDot","label":{"enabled":true},"marker":{"symbol":"triangle-down"}},{"data":[42.6,51.5,54.2,45.8,20.2,15.4],"name":"Other","color":"#f45b5b","dashStyle":"ShortDash","label":{"enabled":true},"marker":{"symbol":"circle"}}],"tooltip":{"valueSuffix":"%"}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
 </div>
+</div>
+<div class="footer">
+<p>Blog post: <a href="https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/">{higcharter} and the Highcharts accessibility module: Part 2</a></p>
 </div>
 </section>
 <section class="slide level2">

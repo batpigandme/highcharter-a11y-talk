@@ -86,6 +86,8 @@ At the time of its first writing, Highcharts' accessibility module didn't seem t
 
 ## Motivating example {.smaller .scrollable}
 
+[Keyboard navigation (accessibility setting) not working #707](https://github.com/jbkunst/highcharter/issues/707)
+
 Now with working keyboard navigation! 🎉
 
 ```{r}
@@ -122,7 +124,7 @@ highchart() %>%
 ```
 
 ::: footer
-highcharter GitHub issue: [Keyboard navigation (accessibility setting) not working #707](https://github.com/jbkunst/highcharter/issues/707)
+Blog post: [Adventures with the Highcharts accessibility module: Part 1](https://dataand.me/posts/2021-11-10-adventures-with-the-highcharts-accessibility-module-part-1/)
 :::
 
 ::: notes
@@ -231,7 +233,7 @@ I'll focus on the first three features.
 
 -----------------------------------------------------------------------
 
-### Accessible line chart re-creation
+### Accessible line chart re-creation {.smaller .scrollable}
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
@@ -361,7 +363,9 @@ hc_sr_setup %>%
   hc_tooltip(valueSuffix = "%")
 ```
 
-
+::: footer
+Blog post: [{higcharter} and the Highcharts accessibility module: Part 2](https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/)
+:::
 
 
 ------------------------------------------------------------------------
