@@ -13,6 +13,7 @@ format:
     lang: en
     code-fold: true
     freeze: true
+    fig-align: center
 ---
 
 ## About me 👋
@@ -172,6 +173,48 @@ Between the start and finish, I learned a bunch of useful (non-code or framework
 
 ::: notes
 This is mainly because the code is already there for you to peruse, and also because (in a shocking twist of fate) demonstrating keyboard navigation features in a slide deck that itself uses the keyboard for navigation is less than ideal.
+:::
+
+------------------------------------------------------------------------
+
+### Highcharts & accessibility {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.r-fit-text}
+Key part of product! [@highsoftas2021]
+:::
+
+::: {.fragment}
+**Features:**
+
+* Keyboard navigation  
+* Screen-reader optimization  
+* Low-vision features  
+* Sonification  
+* Voice input  
+* Tactile export
+
+:::
+:::
+
+::: {.column width="40%"}
+![](images/highcharts-a11y-white-paper-cover-min.png){fig-alt="Cover of white paper entitled Gaining competitive advantage through accessible web applications by Highsoft AS copyright 2021." fig-align="right"}
+:::
+
+::::
+
+
+::: footer
+<https://www.highcharts.com/accessibility/>
+:::
+
+::: notes
+Highcharts is not free for commercial use, and accessibility is a key part of their business model. I'm not gonna get into numbers, but companies spend a lot of time and money to make their products accessible.
+
+I'll focus on the first three features.
 :::
 
 ------------------------------------------------------------------------
@@ -427,4 +470,4 @@ When you click the **Render** button a presentation will be generated that inclu
 
 ------------------------------------------------------------------------
 
-## References
+## References {.smaller .scrollable}
