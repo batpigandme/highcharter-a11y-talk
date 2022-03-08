@@ -223,9 +223,9 @@ I'll focus on the first three features.
 
 ### Highcharts & accessibility: Background {.smaller}
 
-[Making charts accessible for people with visual impairments](https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments)
+Collaboration with Elsevier: 
 
-Accessibility-Expert and **User Testing**
+* Accessibility-Expert and **User Testing**
 
 ::: {.fragment}
 
@@ -237,15 +237,21 @@ Accessibility-Expert and **User Testing**
 
 :::
 
+::: footer
+[Making charts accessible for people with visual impairments](https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments)
+:::
+
 ::: notes
 Collaborations with Elsevier, Georgia Institute of Technology
 :::
 
 ------------------------------------------------------------------------
 
-### Highcharts & accessibility: background
+### Highcharts & accessibility: Background {.smaller}
 
-* Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)
+* Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)  
+  - 
+
 
 ------------------------------------------------------------------------
 
