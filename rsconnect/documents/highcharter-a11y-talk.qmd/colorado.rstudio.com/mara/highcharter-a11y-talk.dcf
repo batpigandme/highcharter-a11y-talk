@@ -5,9 +5,9 @@ account: mara
 server: colorado.rstudio.com
 hostUrl: https://colorado.rstudio.com/rsc/__api__
 appId: 10952
-bundleId: 53989
+bundleId: 53992
 url: https://colorado.rstudio.com/rsc/highcharter-a11y-talk/
-when: 1646836686.20616
-lastSyncTime: 1646836686.20617
+when: 1646841146.5759
+lastSyncTime: 1646841146.5759
 asMultiple: FALSE
 asStatic: TRUE
