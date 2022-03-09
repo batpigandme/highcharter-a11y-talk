@@ -10,6 +10,7 @@ format:
     bibliography: biblio.bib
     self-contained: false
     preview-links: auto
+    multiplex: true
     lang: en
     freeze: true
     fig-align: center
