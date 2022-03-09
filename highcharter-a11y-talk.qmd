@@ -11,7 +11,6 @@ format:
     self-contained: false
     preview-links: auto
     lang: en
-    code-fold: true
     freeze: true
     fig-align: center
 ---
@@ -538,6 +537,188 @@ Source: Accessibility Object Model Explainer [@aom_explainer_2021]
 ::: footer
 Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 :::
+
+::: notes
+What screen readers see is controlled by ARIA roles and HTML
+:::
+
+------------------------------------------------------------------------
+
+### Accessibility-module magic
+
+```{r}
+#| label: palmer-penguins-plot
+library(highcharter)
+library(palmerpenguins)
+highchart() %>%
+  hc_add_dependency(name = "modules/accessibility.js") %>%
+  hc_add_dependency(name = "modules/annotations.js") %>%
+  hc_add_dependency(name = "modules/exporting.js") %>%
+  hc_add_dependency(name = "modules/export-data.js") %>%
+  hc_add_series(
+    penguins, 
+    "scatter", 
+    hcaes(x = flipper_length_mm,
+          y = bill_length_mm,
+          group = species)
+  ) %>%
+  # n.b. by not adding color above, you get "automatic" dual encoding
+  # of points with a different shape for the markers for each species
+  hc_xAxis(
+    title = list(text = "Flipper length (mm)"),
+    accessibility = list(
+      enabled = TRUE,
+      description = "flipper length in millimeters"
+    )
+  ) %>%
+  hc_yAxis(
+    title = list(text = "Bill length (mm)"),
+    accessibility = list(
+      enabled = TRUE,
+      description = "bill length in millimeters"
+    )
+  ) %>%
+  hc_title(
+    text = "Flipper length vs. bill length in <b>{palmerpenguins}</b>",
+    style = list(useHTML = TRUE)
+           ) %>%
+  hc_subtitle(
+    text = "Grouped by species: Adelie, Chinstrap, and Gentoo"
+    ) %>%
+  hc_annotations(
+    list(
+      labels = list(
+        list(
+          point = list(x = 201, y = 54.2, xAxis = 0, yAxis = 0),
+          text = "Chinstrap<br/>x: {x}<br/>y: {y}",
+          shape = "connector" # defaults to 'callout'
+        )
+      ),
+      # below gives you screen-reader descriptions of annotations
+      labelOptions = list(
+        accessibility = list(
+          # wouldn't hard code description here if there was
+          # more than one point annotated, need lang options
+          description = "A Chinstrap penguin observation mapping to a flipper length of 201mm and bill length of 54.2mm."
+      )
+    )
+  )
+  )%>%
+  hc_caption(text = "Scatterplot of the palmerpenguins dataset showing data points clustered by species (Adelie, Chinstrap, and Gentoo) using the highcharter package making it possible to focus on one cluster and identify the x and y values of a specific data point. In this case the data point is a Chinstrap penguin observation mapping to a flipper length of 201mm and bill length of 54.2mm.") %>%
+  hc_exporting(
+    enabled = TRUE,
+    accessibility = list(
+      enabled = TRUE
+    )
+  ) %>%
+  hc_plotOptions(
+    accessibility = list(
+      enabled = TRUE,
+      keyboardNavigation = list(enabled = TRUE)
+    )
+  ) %>%
+  # use the custom colors and keep shape per group if added here
+  hc_colors(c("darkorange", "purple", "#057276"))
+```
+
+::: footer
+Blog post: [Accessible {highcharter}: Part 4](https://dataand.me/posts/2021-11-15-accessible-highcharter-part-4/)
+:::
+
+------------------------------------------------------------------------
+
+### Accessibility-module magic
+
+Inspect the HTML &rarr; “hidden” screen-reader region
+
+``` html
+<div id="highcharts-screen-reader-region-before-0" 
+aria-label="Chart screen reader information." role="region" 
+aria-hidden="false" style="position: relative;"></div>
+```
+::: {.fragment}
+>  This is where Ted and the developers added the structure description of chart that could benefit screen reader users, such as the chart type, axis information (automatically generated), and a long description of what is found in the chart (supplied by the chart creator) [@bert2018]
+:::
+
+::: footer
+<https://api.highcharts.com/highcharts/accessibility.screenReaderSection>
+:::
+
+------------------------------------------------------------------------
+
+### `screenReaderSection`
+
+Default format:
+
+``` html
+<{headingTagName}>{chartTitle}</{headingTagName}>
+<div>{typeDescription}</div>
+<div>{chartSubtitle}</div>
+<div>{chartLongdesc}</div>
+<div>{playAsSoundButton}</div>
+<div>{viewTableButton}</div>
+<div>{xAxisDescription}</div>
+<div>{yAxisDescription}</div>
+<div>{annotationsTitle}{annotationsList}</div>
+```
+
+
+::: footer
+<https://api.highcharts.com/highcharts/accessibility.screenReaderSection.beforeChartFormat>
+:::
+
+------------------------------------------------------------------------
+
+### Our penguins `screenReaderSection`
+
+Title and chart info:
+
+```html
+<p>Flipper length vs. bill length in {palmerpenguins}</p>
+<div>Scatter chart with 3 data series.</div>
+<div>Grouped by species: Adelie, Chinstrap, and Gentoo</div>
+```
+::: {.fragment}
+Axis descriptions and ranges:
+
+```html
+<div>The chart has 1 X axis displaying flipper length in millimeters. Range: 171.41 to 231.59.</div>
+<div>The chart has 1 Y axis displaying bill length in millimeters. Range: 30 to 70.</div>
+```
+:::
+
+::: {.fragment}
+Annotations:
+
+```html
+<div>Chart annotations summary
+<ul>
+<li>A Chinstrap penguin observation mapping to a flipper length of 201mm and bill length of 54.2mm.</li>
+</ul>
+</div>
+```
+
+:::
+
+------------------------------------------------------------------------
+
+### `{chartLongdesc}`
+
+Where you are most irreplaceable!
+
+::: {.fragment}
+**What belongs there?**
+:::
+
+::: {.fragment}
+It depends...
+:::
+
+::: notes
+Depends on both the intention of the chart, and whom you ask.
+:::
+
+------------------------------------------------------------------------
 
 ## Hidden screen-reader region {visibility="hidden"}
 
