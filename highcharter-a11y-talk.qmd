@@ -725,6 +725,30 @@ In the user studies, they found that it was important that it be skipable.
 
 ------------------------------------------------------------------------
 
+### Different descriptions, different kinds of content {.r-fit-text}
+
+[Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content](http://vis.csail.mit.edu/pubs/vis-text-model/) [@lundgard2022]
+
+::: incremental
+1. Elemental and Encoded Properties
+2. Statistical Concepts and Relations
+3. Perceptual and Cognitive Phenomena
+4. Contextual and Domain-Specific Insights
+:::
+
+::: footer
+<http://vis.csail.mit.edu/pubs/vis-text-model/>
+:::
+
+::: notes
+1. title, legend, chart type, ranges etc
+2. computable descriptive statistics
+3. convey the “overall gist” of complex trends and patterns, exceptions
+4. social and political explanations for an observed trend that depends on an individual reader’s subjective knowle
+:::
+
+------------------------------------------------------------------------
+
 ### Lessons learned...
 
 
@@ -738,6 +762,7 @@ In the user studies, they found that it was important that it be skipable.
 
 ::: notes
 Limitations to technical fixes
+Make affordances for user preferences
 :::
 
 ------------------------------------------------------------------------
