@@ -293,7 +293,7 @@ Three phase user testing
 
 ------------------------------------------------------------------------
 
-### Access to data table {.smaller .scrollable}
+### Access to data as table and/or for export {.smaller .scrollable}
 
 ::: {.r-fit-text}
 Users preferred this when data was simple [@moseng2016].
@@ -794,7 +794,10 @@ Make affordances for user preferences
 
 ## R code and working examples {.smaller}
 
-* [Accessible {highcharter} GitHub repo](https://github.com/batpigandme/accessible-highcharter) (rendered demos of my charts, and source `.Rmd`s)  
+* [Accessible {highcharter} GitHub repo](https://github.com/batpigandme/accessible-highcharter) (rendered demos of my charts, and source `.Rmd`s)  <span class="commentary">&larr; More useful</span>
+
+* [GitHub repo for these slides](https://github.com/batpigandme/highcharter-a11y-talk) <span class="commentary">&larr; Less useful</span>
+
 * Blog post series:  
   - [Adventures with the Highcharts accessibility module: Part 1](https://dataand.me/posts/2021-11-10-adventures-with-the-highcharts-accessibility-module-part-1/)  
   - [{higcharter} and the Highcharts accessibility module: Part 2](https://dataand.me/posts/2021-11-12-higcharter-and-the-highcharts-accessibility-module-part-2/)  
@@ -815,7 +818,7 @@ Make affordances for user preferences
 
 -   [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
 
-- [The A11y Project](https://www.a11yproject.com/) &larr; Meta resource
+- [The A11y Project](https://www.a11yproject.com/) <span class="commentary">&larr; Meta resource</span>
 
 ------------------------------------------------------------------------
 

@@ -90,3 +90,9 @@ details > summary {
 .reveal ul ul li:before {
   content: "\00a0 \00a0 \00a0"; //3 non breakable spaces
 }
+
+// commentary span
+span.commentary {
+  color: $magenta-mid;
+  margin-left: 1rem;
+}
