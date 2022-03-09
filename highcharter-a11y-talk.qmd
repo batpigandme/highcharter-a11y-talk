@@ -296,7 +296,9 @@ Three phase user testing
 
 ### Access to data table {.smaller .scrollable}
 
-User preferred this when data was simple [@moseng2016].
+::: {.r-fit-text}
+Users preferred this when data was simple [@moseng2016].
+:::
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
@@ -502,7 +504,7 @@ platform-specific accessibility APIs
 
 ```{r}
 #| label: a11y-tree-example
-#| fig-alt: "A full round trip from UI element to accessibility node to assistive technology to user to user keypress to accessibility API action method back to UI element."
+#| fig-alt: "A full round trip from UI element to accessibility node to assistive technology to user to user keypress to accessibility API action method back to UI element. 1. app translates UI into accessibility node. 2. VoiceOver visits accessibility node. 3. VoiceOver announces refresh button. 4. User presses control option spacebar. 5. VoiceOver calls accessibilityPerformPress. 6. click event routed back to UI element."
 knitr::include_graphics("images/wicg-aom-a11y-tree-example-min.png")
 ```
 
@@ -516,6 +518,25 @@ Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 
 ::: notes
 This is a difficult problem space because accessibility APIs are browser and platform specific. SVG technology stuff is cutting edge...learn more in video linked to at end from CSUN 2019
+:::
+
+------------------------------------------------------------------------
+
+### Accessibility tree in the browser
+
+```{r}
+#| label: DOM-a11y-tree
+#| fig-alt: "HTML translated into DOM tree translated which can be read/modified by JavaScript, DOM tree is then translated into visual UI and accessibility tree in parallel, which is read by native assistive technology API and accessed by the user."
+#| fig-align: "center"
+knitr::include_graphics("images/wicg-aom-DOM-a11y-tree-min.png")
+```
+
+::: r-fit-text
+Source: Accessibility Object Model Explainer [@aom_explainer_2021]
+:::
+
+::: footer
+Accessibility Object Model Explainer <https://wicg.github.io/aom/explainer.html>
 :::
 
 ## Hidden screen-reader region {visibility="hidden"}
@@ -564,8 +585,19 @@ function(input, output) {
 
 ------------------------------------------------------------------------
 
-::: {.r-fit-text}
-Use tools!
+### Lessons learned...
+
+
+::: incremental
+* Use tools  
+* Don't **rely** on tools  
+* Accessibility isn't “one size fits all”
+* Steal from experts  
+* Keep learning  
+:::
+
+::: notes
+Limitations to technical fixes
 :::
 
 ------------------------------------------------------------------------

@@ -697,7 +697,9 @@
 <section class="slide level2">
 
 <h3 class="smaller scrollable" id="access-to-data-table">Access to data table</h3>
-<p>User preferred this when data was simple <span class="citation" data-cites="moseng2016">(<a href="#/ref-moseng2016" role="doc-biblioref" onclick="return false;">Moseng and Gies 2016</a>)</span>.</p>
+<div class="r-fit-text">
+<p>Users preferred this when data was simple <span class="citation" data-cites="moseng2016">(<a href="#/ref-moseng2016" role="doc-biblioref" onclick="return false;">Moseng and Gies 2016</a>)</span>.</p>
+</div>
 <div class="cell" data-hash="highcharter-a11y-talk_cache/revealjs/unnamed-chunk-4_b15e98e9d5b8947e24a55154a0a1a92c">
 <div class="cell-output-display">
 <div id="htmlwidget-6b1e0f1c096dfc58a859" style="width:960px;height:480px;" class="highchart html-widget"></div>
@@ -761,7 +763,7 @@
 
 <h3 id="ui-via-assistive-technology-example">UI via assistive technology: example</h3>
 
-<img data-src="images/wicg-aom-a11y-tree-example-min.png" alt="A full round trip from UI element to accessibility node to assistive technology to user to user keypress to accessibility API action method back to UI element." width="1000" class="r-stretch"><div class="r-fit-text">
+<img data-src="images/wicg-aom-a11y-tree-example-min.png" alt="A full round trip from UI element to accessibility node to assistive technology to user to user keypress to accessibility API action method back to UI element. 1. app translates UI into accessibility node. 2. VoiceOver visits accessibility node. 3. VoiceOver announces refresh button. 4. User presses control option spacebar. 5. VoiceOver calls accessibilityPerformPress. 6. click event routed back to UI element." width="1000" class="r-stretch"><div class="r-fit-text">
 <p>Source: Accessibility Object Model Explainer <span class="citation" data-cites="aom_explainer_2021">(<a href="#/ref-aom_explainer_2021" role="doc-biblioref" onclick="return false;">Boxhall et al. 2021</a>)</span></p>
 </div>
 <div class="footer">
@@ -770,6 +772,17 @@
 <aside class="notes">
 <p>This is a difficult problem space because accessibility APIs are browser and platform specific. SVG technology stuff is cutting edge…learn more in video linked to at end from CSUN 2019</p>
 </aside>
+</section>
+<section class="slide level2">
+
+<h3 id="accessibility-tree-in-the-browser">Accessibility tree in the browser</h3>
+
+<img data-src="images/wicg-aom-DOM-a11y-tree-min.png" alt="HTML translated into DOM tree translated which can be read/modified by JavaScript, DOM tree is then translated into visual UI and accessibility tree in parallel, which is read by native assistive technology API and accessed by the user." width="1037" class="r-stretch quarto-figure-center"><div class="r-fit-text">
+<p>Source: Accessibility Object Model Explainer <span class="citation" data-cites="aom_explainer_2021">(<a href="#/ref-aom_explainer_2021" role="doc-biblioref" onclick="return false;">Boxhall et al. 2021</a>)</span></p>
+</div>
+<div class="footer">
+<p>Accessibility Object Model Explainer <a href="https://wicg.github.io/aom/explainer.html" class="uri">https://wicg.github.io/aom/explainer.html</a></p>
+</div>
 </section>
 
 <section id="pretty-code" class="slide level2" data-auto-animate="true">
@@ -808,9 +821,23 @@
 </section>
 <section class="slide level2">
 
-<div class="r-fit-text">
-<p>Use tools!</p>
+<h3 id="lessons-learned">Lessons learned…</h3>
+<div>
+<ul>
+<li class="fragment">Use tools<br>
+</li>
+<li class="fragment">Don’t <strong>rely</strong> on tools<br>
+</li>
+<li class="fragment">Accessibility isn’t “one size fits all”</li>
+<li class="fragment">Steal from experts<br>
+</li>
+<li class="fragment">Keep learning<br>
+</li>
+</ul>
 </div>
+<aside class="notes">
+<p>Limitations to technical fixes</p>
+</aside>
 </section>
 <section id="r-code-and-working-examples" class="slide level2 smaller">
 <h2>R code and working examples</h2>
