@@ -714,55 +714,14 @@ Where you are most irreplaceable!
 It depends...
 :::
 
-::: notes
-Depends on both the intention of the chart, and whom you ask.
+::: {.fragment}
+> Provide a text summary of the visualization, making sure to describe trends or patterns in the visualization. [@moseng2021]
 :::
 
-------------------------------------------------------------------------
-
-## Hidden screen-reader region {visibility="hidden"}
-
-> This second video shows a screen reader navigating to the chart in a webpage, entering the hidden information region for the chart. This is where Ted and the developers added the structure description of chart that could benefit screen reader users, such as the chart type, axis information (automatically generated), and a long description of what is found in the chart (supplied by the chart creator): [Screen reader translating hidden information about chart details](https://www.elsevier.com/__data/assets/video_file/0006/1101597/Line2-top.mp4) [@bert2018].
-
-------------------------------------------------------------------------
-
-## Pretty Code {auto-animate="true"}
-
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
-
-``` r
-# Define a server for the Shiny app
-function(input, output) {
-  
-  # Fill in the spot we created for a plot
-  output$phonePlot <- renderPlot({
-    # Render a barplot
-  })
-}
-```
-
-------------------------------------------------------------------------
-
-## Code Animations {auto-animate="true"}
-
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
-
-``` r
-# Define a server for the Shiny app
-function(input, output) {
-  
-  # Fill in the spot we created for a plot
-  output$phonePlot <- renderPlot({
-    # Render a barplot
-    barplot(WorldPhones[,input$region]*1000, 
-            main=input$region,
-            ylab="Number of Telephones",
-            xlab="Year")
-  })
-}
-```
+::: notes
+Depends on both the intention of the chart, and whom you ask.
+In the user studies, they found that it was important that it be skipable.
+:::
 
 ------------------------------------------------------------------------
 
@@ -772,8 +731,8 @@ function(input, output) {
 ::: incremental
 * Use tools  
 * Don't **rely** on tools  
-* Accessibility isn't “one size fits all”
-* Steal from experts  
+* Accessibility isn't “one size fits all”  
+* Look to the experts  
 * Keep learning  
 :::
 

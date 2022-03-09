@@ -865,44 +865,14 @@
 <div class="fragment">
 <p>It depends…</p>
 </div>
+<div class="fragment">
+<blockquote>
+<p>Provide a text summary of the visualization, making sure to describe trends or patterns in the visualization. <span class="citation" data-cites="moseng2021">(<a href="#/ref-moseng2021" role="doc-biblioref" onclick="return false;">Moseng 2021</a>)</span></p>
+</blockquote>
+</div>
 <aside class="notes">
-<p>Depends on both the intention of the chart, and whom you ask.</p>
+<p>Depends on both the intention of the chart, and whom you ask. In the user studies, they found that it was important that it be skipable.</p>
 </aside>
-</section>
-
-<section id="pretty-code" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Pretty Code</h2>
-<ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
-</ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a href="#cb6-1"></a><span class="co"># Define a server for the Shiny app</span></span>
-<span id="cb6-2" class="hljs-ln-code"><a href="#cb6-2"></a><span class="cf">function</span>(input, output) {</span>
-<span id="cb6-3" class="hljs-ln-code"><a href="#cb6-3"></a>  </span>
-<span id="cb6-4" class="hljs-ln-code"><a href="#cb6-4"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
-<span id="cb6-5" class="hljs-ln-code"><a href="#cb6-5"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
-<span id="cb6-6" class="hljs-ln-code"><a href="#cb6-6"></a>    <span class="co"># Render a barplot</span></span>
-<span id="cb6-7" class="hljs-ln-code"><a href="#cb6-7"></a>  })</span>
-<span id="cb6-8" class="hljs-ln-code"><a href="#cb6-8"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="code-animations" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Code Animations</h2>
-<ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
-</ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb7-1" class="hljs-ln-code"><a href="#cb7-1"></a><span class="co"># Define a server for the Shiny app</span></span>
-<span id="cb7-2" class="hljs-ln-code"><a href="#cb7-2"></a><span class="cf">function</span>(input, output) {</span>
-<span id="cb7-3" class="hljs-ln-code"><a href="#cb7-3"></a>  </span>
-<span id="cb7-4" class="hljs-ln-code"><a href="#cb7-4"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
-<span id="cb7-5" class="hljs-ln-code"><a href="#cb7-5"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
-<span id="cb7-6" class="hljs-ln-code"><a href="#cb7-6"></a>    <span class="co"># Render a barplot</span></span>
-<span id="cb7-7" class="hljs-ln-code"><a href="#cb7-7"></a>    <span class="fu">barplot</span>(WorldPhones[,input<span class="sc">$</span>region]<span class="sc">*</span><span class="dv">1000</span>, </span>
-<span id="cb7-8" class="hljs-ln-code"><a href="#cb7-8"></a>            <span class="at">main=</span>input<span class="sc">$</span>region,</span>
-<span id="cb7-9" class="hljs-ln-code"><a href="#cb7-9"></a>            <span class="at">ylab=</span><span class="st">"Number of Telephones"</span>,</span>
-<span id="cb7-10" class="hljs-ln-code"><a href="#cb7-10"></a>            <span class="at">xlab=</span><span class="st">"Year"</span>)</span>
-<span id="cb7-11" class="hljs-ln-code"><a href="#cb7-11"></a>  })</span>
-<span id="cb7-12" class="hljs-ln-code"><a href="#cb7-12"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section class="slide level2">
 
@@ -913,8 +883,9 @@
 </li>
 <li class="fragment">Don’t <strong>rely</strong> on tools<br>
 </li>
-<li class="fragment">Accessibility isn’t “one size fits all”</li>
-<li class="fragment">Steal from experts<br>
+<li class="fragment">Accessibility isn’t “one size fits all”<br>
+</li>
+<li class="fragment">Look to the experts<br>
 </li>
 <li class="fragment">Keep learning<br>
 </li>
