@@ -749,6 +749,29 @@ In the user studies, they found that it was important that it be skipable.
 
 ------------------------------------------------------------------------
 
+### Different descriptions, different kinds of content {.r-fit-text .smaller}
+
+[Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content](http://vis.csail.mit.edu/pubs/vis-text-model/) [@lundgard2022]
+
+::: {.fragment}
+> Descriptions are important to both [blind and sighted] reader groups
+:::
+
+::: {.fragment}
+> Reader groups differ significantly on which semantic content they rank as most useful
+:::
+
+::: {.fragment}
+>  Access to meaningful information is strongly reader-specific
+:::
+
+
+::: footer
+<http://vis.csail.mit.edu/pubs/vis-text-model/>
+:::
+
+------------------------------------------------------------------------
+
 ### Lessons learned...
 
 
@@ -757,11 +780,13 @@ In the user studies, they found that it was important that it be skipable.
 * Don't **rely** on tools  
 * Accessibility isn't “one size fits all”  
 * Look to the experts  
+* Get feedback  
 * Keep learning  
 :::
 
 ::: notes
 Limitations to technical fixes
+Access friction
 Make affordances for user preferences
 :::
 
