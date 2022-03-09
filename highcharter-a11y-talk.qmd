@@ -223,7 +223,7 @@ I'll focus on the first three features.
 
 ### Highcharts & accessibility: Background {.smaller}
 
-Collaboration with Elsevier: 
+Collaboration with Elsevier, feat. Øystein Moseng (Highsoft) and Ted Gies (Elsevier)
 
 * Accessibility-Expert and **User Testing**
 
@@ -243,13 +243,14 @@ Collaboration with Elsevier:
 
 ::: notes
 Collaborations with Elsevier, Georgia Institute of Technology
+Moseng and Gies are also both members of the DataViz Accessibility Advocacy and Advisory Group
 :::
 
 ------------------------------------------------------------------------
 
 ### Highcharts & accessibility: Background {.smaller}
 
-Øystein Moseng (Highsoft) and Ted Gies (Elsevier) presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)  
+Øystein Moseng and Ted Gies presentations at <abbr title="California State University Northridge">CSUN</abbr> Assistive Technology Conference(s)  
 
 * Accessible SVG Charts Using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> [@moseng2016]  
   - [Video interview](https://www.youtube.com/watch?v=kwCOxZ6JJ6I)
@@ -563,6 +564,12 @@ function(input, output) {
 
 ------------------------------------------------------------------------
 
+::: {.r-fit-text}
+Use tools!
+:::
+
+------------------------------------------------------------------------
+
 ## R code and working examples {.smaller}
 
 * [Accessible {highcharter} GitHub repo](https://github.com/batpigandme/accessible-highcharter) (rendered demos of my charts, and source `.Rmd`s)  
@@ -578,9 +585,15 @@ function(input, output) {
 
 ## Resources
 
+- [10 Guidelines for DataViz Accessibility](https://www.highcharts.com/blog/tutorials/10-guidelines-for-dataviz-accessibility/) by Øystein Moseng [@moseng2021]
+
+- [Accessible visualization via natural language descriptions](http://vis.csail.mit.edu/pubs/vis-text-model/) by Alan Lundgard and Arvind Satyanarayan [@lundgard2022]
+
+- [DataViz Accessibility Advocacy and Advisory Group](https://github.com/dataviza11y/Why-We-Exist#dataviz-accessibility-advocacy-and-advisory-group)
+
 -   [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/) by Daniel Göransson [@goransson2017]
 
-- 
+- [The A11y Project](https://www.a11yproject.com/) &larr; Meta resource
 
 ------------------------------------------------------------------------
 
