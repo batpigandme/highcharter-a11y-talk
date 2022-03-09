@@ -16,10 +16,10 @@ $black: #000 !default;
 $gray-light: #d9d9d9 !default;
 $gray-mid: #595959 !default;
 $gray-dark: #1f1f1f !default;
-// geekblue
-$geekblue-light: #d6e4ff !default;
-$geekblue-mid: #10239e !default;
-$geekblue-dark: #030852 !default;
+// magenta
+$magenta-light: #ffd6e7 !default;
+$magenta-mid: #9e1068 !default;
+$magenta-dark: #520339 !default;
 // cyan
 $cyan-light: #b5f5ec !default;
 $cyan-mid: #00626a !default;
@@ -33,6 +33,9 @@ $body-color: $gray-dark !default;
 // link colors
 $link-color: $cyan-mid !default;
 $link-hover-color: $cyan-dark !default;
+
+// selection colors
+$selection-bg: $magenta-mid !default;
 
 // headings
 $presentation-title-slide-text-align: "left";

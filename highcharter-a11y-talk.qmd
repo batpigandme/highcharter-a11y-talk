@@ -263,13 +263,16 @@ Collaborations with Elsevier, Georgia Institute of Technology
 Collaboration with [Georgia Tech Sonification Lab](http://sonify.psych.gatech.edu/)
 [@cantrell2021] 
 
-* Highcharts Sonification Studio  
+* Highcharts Sonification Studio [@cantrell2021]  
   - <https://sonification.highcharts.com/>
 
 ::: footer
 [New Browser-Based Chart Builder Gives Line Graphs, Scatterplots Their Very Own Audio Track](https://gvu.gatech.edu/news/new-browser-based-chart-builder-gives-line-graphs-scatterplots-their-very-own-audio-track)
 :::
 
+::: notes
+Three phase user testing
+:::
 
 ------------------------------------------------------------------------
 
@@ -292,7 +295,7 @@ Collaboration with [Georgia Tech Sonification Lab](http://sonify.psych.gatech.ed
 
 ### Access to data table {.smaller .scrollable}
 
-Some users preferred this when data was simple
+User preferred this when data was simple [@moseng2016].
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
@@ -437,10 +440,38 @@ Blog post: [{higcharter} and the Highcharts accessibility module: Part 2](https:
 <https://www.highcharts.com/samples/nonav/highcharts/sonification/chart-earcon>
 :::
 
+-----------------------------------------------------------------------
+
+### Voice input
+
+<iframe width="1050" height="590" src="https://www.youtube-nocookie.com/embed/jGQ4HYSYUZ8" title="Accessible interaction with chart controls using Dragon voice input and Highcharts." frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ------------------------------------------------------------------------
 
-### Screen-reader div
+### Screen-reader accessibility {.smaller}
 
+<iframe width="1050" height="590" src="https://www.youtube-nocookie.com/embed/w6ntxLG6MLQ" title="Highcharts A11y Line Chart" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+::: notes
+Accessible to screen readers on multiple levels (more on this later)
+:::
+
+------------------------------------------------------------------------
+
+## Perfect?
+
+![](images/shruggie-min.png){fig-alt="Emoticon of someone smiling and shrugging."}
+
+------------------------------------------------------------------------
+
+## Impressive?
+
+![](images/emoji-100-min.png){fig-alt="100 emoji."}
+
+::: {.fragment}
+\* Or at least way better than I'd be able to do myself
+:::
 
 ------------------------------------------------------------------------
 
@@ -489,10 +520,6 @@ This is a difficult problem space because accessibility APIs are browser and pla
 ## Hidden screen-reader region {visibility="hidden"}
 
 > This second video shows a screen reader navigating to the chart in a webpage, entering the hidden information region for the chart. This is where Ted and the developers added the structure description of chart that could benefit screen reader users, such as the chart type, axis information (automatically generated), and a long description of what is found in the chart (supplied by the chart creator): [Screen reader translating hidden information about chart details](https://www.elsevier.com/__data/assets/video_file/0006/1101597/Line2-top.mp4) [@bert2018].
-
-## Video example {visibility="hidden"}
-
-<https://youtu.be/w6ntxLG6MLQ>
 
 ------------------------------------------------------------------------
 
