@@ -1,6 +1,6 @@
 # highcharter-a11y-talk
 
-Rendered slides: <https://colorado.rstudio.com/rsc/highcharter-a11y-talk/>
+Rendered HTML slides: <https://colorado.rstudio.com/rsc/highcharter-a11y-talk/>
 
 ## Source code for R charts
 
